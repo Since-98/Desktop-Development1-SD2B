@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="picture\colorful-various-herbs-spices-cooking-dark-background_370312-476.avif" />
+    <None Remove="picture\dscf6913-1.1920x0.jpeg" />
+    <None Remove="picture\FJqVppNUUAAI5eI.jpg" />
+    <None Remove="picture\Schermopname %2867%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="picture\FJqVppNUUAAI5eI.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="picture\Schermopname (67).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Script\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.1.0" />
+  </ItemGroup>
+
+</Project>

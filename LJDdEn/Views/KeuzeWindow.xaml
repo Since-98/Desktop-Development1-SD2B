@@ -1,0 +1,24 @@
+﻿<Window x:Class="LJDdEn.Views.KeuzeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LJDdEn.Views"
+        mc:Ignorable="d"
+        Title="KeuzeWindow" Height="450" Width="800">
+    <Grid >
+
+        <Grid.Background>
+            <ImageBrush ImageSource="/picture/Schermopname (67).png"/>
+
+        </Grid.Background>
+        
+        <Button Content="Maaltijden" HorizontalAlignment="Center"  Background="White" VerticalAlignment="Top" Width="150" Height="30" Margin="0,112,0,0" Click="maaltijden"/>
+        <Button Content="Maaltijden" HorizontalAlignment="Center"  Background="White" VerticalAlignment="Top" Width="150" Height="30"  Margin="0,182,0,0" Click="maaltijden" />
+        <Button Content="Ingrediënten" HorizontalAlignment="Center" Background="White" VerticalAlignment="Top" Width="150" Height="30"  Margin="0,217,0,0" Click="ingredienten"/>
+        <TextBlock Text="Manager" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="24"  Margin="50,182,0,0" >
+        </TextBlock>
+        <TextBlock Text="Bediening" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="24"  Margin="50,102,0,0" >
+        </TextBlock>
+    </Grid>
+</Window>
