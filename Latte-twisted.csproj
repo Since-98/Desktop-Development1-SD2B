@@ -1,0 +1,82 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Latte_twisted</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pictures\almond croisant.jpg" />
+    <None Remove="Pictures\Avotast.jpg" />
+    <None Remove="Pictures\brownies.jpg" />
+    <None Remove="Pictures\cappuchino.jpg" />
+    <None Remove="Pictures\Cold brew.jpg" />
+    <None Remove="Pictures\cus.jpg" />
+    <None Remove="Pictures\display window.jpg" />
+    <None Remove="Pictures\expresso.jpg" />
+    <None Remove="Pictures\Frappe.jpg" />
+    <None Remove="Pictures\mainwindow.jpg" />
+    <None Remove="Pictures\Match.jpg" />
+    <None Remove="Pictures\Pistachiorolls.jpg" />
+    <None Remove="Pictures\Sanbuus.jpg" />
+    <None Remove="Pictures\Shaax.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Pictures\almond croisant.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pictures\Avotast.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pictures\brownies.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pictures\cappuchino.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pictures\Cold brew.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pictures\cus.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pictures\display window.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pictures\expresso.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pictures\Frappe.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pictures\mainwindow.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pictures\Match.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pictures\Pistachiorolls.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pictures\Sanbuus.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pictures\Shaax.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="documentatie\" />
+    <Folder Include="Script\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.2.0" />
+  </ItemGroup>
+
+</Project>
